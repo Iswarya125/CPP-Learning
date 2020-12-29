@@ -1,3 +1,5 @@
+//dynamic_cast<new_type>(expression)
+
 // NOTES:
 // 0. dynamic_cast is used at run time to find out correct down-cast.
 // 1: Need at least one virtual function in base class.
