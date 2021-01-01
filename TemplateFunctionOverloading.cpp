@@ -23,8 +23,11 @@ T max(T a, T b, T c)
 
 int main()
 {
+    //global scope
     ::max(2,4);
     ::max('a','b');
     ::max(3,4,5);
     ::max<>(2,4);
+    //refers to std::max function
+    cout<<max(1,2);
 }
