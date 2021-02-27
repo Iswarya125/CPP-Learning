@@ -31,7 +31,7 @@ class Student : public Person
     void getdata() override
     {
         string s,s_temp;
-        cin.ignore();
+        cin.ignore("\n");
         getline(cin,s);
         int pos,count = 7;
         while(count >= 0)
@@ -83,7 +83,7 @@ class Professor : public Person
     void getdata() override
     {
         string s,s_temp;
-        cin.ignore();
+        cin.ignore("\n");
         getline(cin,s);
         int pos,count = 2;
         while(count >= 0)

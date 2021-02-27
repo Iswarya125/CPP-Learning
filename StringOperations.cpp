@@ -24,4 +24,12 @@ int main()
         }
         count--;
     }
+
+    string s1 = "hello world";
+    string s2(s1);
+    //pass string iterators to the constructor of string not index value directly
+    string s3(s1.rbegin(),s1.rend());
+    cout<<s1<<endl;
+    cout<<s2<<endl;
+    cout<<s3<<endl;
 }
