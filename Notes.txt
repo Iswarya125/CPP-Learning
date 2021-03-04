@@ -1,0 +1,6 @@
+1. Constructor and destructor can be called explicitly.
+2. Calling the constructor will create temporary object and it will be destructed (Calls destructor) soon after the execution of constructor call line.
+3. Destructor can be called by using above created object explicitly but compiler will anyway call that as mentioned above.
+4. To call destructor explicitly object.destructor() this is the way or constructor().destructor()
+
+
